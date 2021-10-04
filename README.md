@@ -1,13 +1,13 @@
-# asdf-kubectl
+# asdf-kubeseal
 
-[![Build Status](https://travis-ci.org/asdf-community/asdf-kubectl.svg?branch=master)](https://travis-ci.org/asdf-community/asdf-kubectl)
+[![Build Status](https://travis-ci.org/asdf-community/asdf-kubeseal.svg?branch=master)](https://travis-ci.org/asdf-community/asdf-kubeseal)
 
-Kubectl plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
+Kubeseal plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 
 ## Install
 
 ```
-asdf plugin-add kubectl https://github.com/asdf-community/asdf-kubectl.git
+asdf plugin-add kubeseal https://git@github.com:drgeb/asdf-kubeseal.git
 ```
 
 ## Use
