@@ -7,7 +7,7 @@ Kubeseal plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 ## Install
 
 ```
-asdf plugin-add kubeseal https://git@github.com:drgeb/asdf-kubeseal.git
+asdf plugin-add kubeseal https://github.com/drgeb/asdf-kubeseal.git
 ```
 
 ## Use
