@@ -35,7 +35,7 @@ get_cpu() {
 
   case "$machine_hardware_name" in
     'x86_64') local cpu_type="amd64";;
-    'powerpc64le' | 'ppc64le') local cpu_type="ppc64le";;    
+    'powerpc64le' | 'ppc64le') local cpu_type="ppc64le";;
     'aarch64') local cpu_type="arm64";;
     'armv7l') local cpu_type="arm";;
     *) local cpu_type="$machine_hardware_name";;
@@ -47,7 +47,7 @@ get_cpu() {
 get_download_url() {
   local version="$1"
   local platform="$(get_arch)"
-  echo "https://storage.googleapis.com/kubernetes-release/release/v${version}/bin/${platform}/$(get_cpu)/kubeseal"
+  echo "https://github.com/bitnami-labs/sealed-secrets/releases/download/v${version}/kubeseal-${version}-${platform}-$(get_cpu).tar.gz"
 }
 
 install_kubeseal $ASDF_INSTALL_TYPE $ASDF_INSTALL_VERSION $ASDF_INSTALL_PATH
